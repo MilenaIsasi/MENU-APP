@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body { /* Aplica a todo el body*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(28, 27, 27);
+    font-family: 'IBM Plex Serif', serif;
+    position: static;
+    background-image: url(./img/fondo.jpg);
+    
+}
+
+h1 {
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-color: #fffcf2;
+    background-color: #252422;
+    cursor: pointer;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: x-large;
+    color :white;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
+img{
+    /* codigo para alinear imagen centro */
+    display:block;
+    margin:auto;
+    width: 200px;
+    height: 50%;
+    background-color:#fffcf2 ;
+    border-radius: 50%;
+    border-style: double;
+    border-color:#252422;
+   
+}
+h2{
+    text-align: center;
+    border-style: double;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-width: 5px;
+    border-color: #fffcf2;
+    background-color: #252422;
+    cursor: pointer;
+    font-family: 'Fredericka the Great', cursive;
+    color :white;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.menu-item {
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100%;
+    background-color: #fffcf2;
+    border-style:groove ;
+    border-color: #252422;
+    
+}
+
+.menu-item:hover {
+    background-color: #ccc5b9;
+}
+
+.precio {
+    float: right;
+    margin-right: 3%;
+    cursor: pointer;
+    text-align:unset;
+    font-family: 'Fredericka the Great', cursive;
+    position:static;
+    color: rgb(3, 3, 3);
+
+
+    }
+
+.producto {
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+    color: #252422;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+/*
+Esta clase permite centrar verticalmente los items en el div, tener en cuenta que si aumenta el alto del div contenedor,
+el line-height acá también debería aumentar al mismo valor.
+*/
+.item {
+    vertical-align:middle;
+    line-height: 1rem;
+}
+
+#lista-menu {
+    margin: 0px auto; /* con esto se logra que este centrado horizontalmente */
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+    background-size: 50%;
+    cursor: pointer;
+    border-style: double;
+    border-color: #fffcf2;
+    padding: 2%;
+    background-color:#252422 ;
+    border-radius: 10%;
+}
+
+.descripcion {
+    display: inline-block;
+    text-align:center;
+    min-width: 40%;
+    cursor: pointer;
+    font-size:12px;
+    position: absolute;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 8px 0px 15px 15px;
+    color: #252422;
+    
+  
+}
+
+.agrandado{
+    float: right;
+    margin-right: 3%;
+    cursor: pointer;
+    font-family: 'Fredericka the Great', cursive;
+    position:static;
+    color: #252422;
+}
